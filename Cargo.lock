@@ -1305,7 +1305,6 @@ dependencies = [
 [[package]]
 name = "logdna-mock-ingester"
 version = "0.1.0"
-source = "git+ssh://git@github.com/answerbook/mock-ingester.git?branch=librarify#44f7c80be3259f7588260ca2cc6b774b0a894f45"
 dependencies = [
  "async-compression",
  "env_logger",
@@ -1314,6 +1313,7 @@ dependencies = [
  "log",
  "rcgen",
  "rustls",
+ "rustls-native-certs",
  "serde",
  "serde_json",
  "tokio",
